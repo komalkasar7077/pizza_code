@@ -1,0 +1,56 @@
+.hero{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(180, 201, 207);
+}
+
+.left_side{
+width: 45%;
+height: 400px;
+align-items: center;
+justify-content: center;
+}
+
+.right_side{
+    width: 55%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.left_side > .btn{
+    width: 60% !important;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    background-color: whitesmoke;
+}
+
+.box{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    text-align: center;
+    margin-left: 15%;
+    
+}
+
+.form{
+    margin-top:50px;
+    box-shadow: 2px 2px 4px black;
+    padding-top:20px;
+    color:white;
+    height: 230px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url('https://th.bing.com/th/id/R.84af91cdc7e97b7ee7839d449b233b3f?rik=UARWOEjfIDEWaw&riu=http%3a%2f%2fimages.all-free-download.com%2fimages%2fgraphiclarge%2fsky_plane_516385.jpg&ehk=KtsoG944yrgP7OcVyZiWKNIq80AW%2bMUsWVcS4Y%2bE9rk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
+}
+a{
+    color:white;
+}
+a:hover {
+color:red;
+}
+
